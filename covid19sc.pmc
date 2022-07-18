@@ -1,0 +1,335 @@
+﻿[PMC Globals]|None||
+[PMC Code v5.4.1]|`||1|Window,2,Fast,0,1,Input,-1,-1,1|1|OrderSet
+Context=None|
+Groups=Start:1
+1|Left Move & Click|77, 181 Left, 1|1|10|Click|||||1|
+
+[PMC Code v5.4.1]|F1||1|Window,2,Fast,0,1,Input,-1,-1,1|1|OrderCOVID19
+Context=None|
+Groups=Start:1
+1|Left Move & Click|121, 290 Left, 2|1|10|Click|||||1|
+
+[PMC Code v5.4.1]|F3||1|Window,2,Fast,0,1,Input,-1,-1,1|1|OrderSelfPay
+Context=None|
+Groups=Start:1
+1|Left Move & Click|197, 303 Left, 2|1|10|Click|||||1|
+
+[PMC Code v5.4.1]|F4||1|Window,2,Fast,0,1,Input,-1,-1,1|1|OrderAided
+Context=None|
+Groups=Start:1
+1|Left Move & Click|193, 365 Left, 2|1|10|Click|||||1|
+
+[PMC Code v5.4.1]|F5||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Refresh
+Context=None|
+Groups=Start:1
+1|Left Move & Click|606, 153 Left, 1|1|10|Click|||||1|
+
+[PMC Code v5.4.1]|F6||1|Window,2,Fast,0,1,Input,-1,-1,1|1|OrderGuardian
+Context=None|
+Groups=Start:1
+1|Left Move & Click|202, 420 Left, 2|1|10|Click|||||1|
+
+[PMC Code v5.4.1]|F7||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Tab7
+Context=None|
+Groups=Start:1
+1|Tab|{Tab}|7|10|Send|||||1|
+
+[PMC Code v5.4.1]|F11||1|Window,2,Fast,0,1,Input,-1,-1,1|1|EMRForm
+Context=None|
+Groups=Start:1
+1|Left Move & Click|2458, 160 Left, 2|1|10|Click|||||1|
+2|[Pause]||1|300|Sleep|||||3|
+3|Left Move & Click|125, 109 Left, 2|1|10|Click|||||4|
+4|[Pause]||1|2000|Sleep|||||6|
+5|Left Move & Click|211, 339 Left, 2|1|10|Click|||||7|
+6|[Text]|`n|1|0|SendRaw|||||9|
+
+[PMC Code v5.4.1]|F12||1|Window,2,Fast,0,1,Input,-1,-1,1|1|EMRSign
+Context=None|
+Groups=Start:1
+1|Left Move & Click|231, 106 Left, 2|1|10|Click|||||1|
+
+[PMC Code v5.4.1]|ScrollLock||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Waiting
+Context=None|
+Groups=Start:1
+1|Left Move & Click|433, 159 Left, 1|1|10|Click|||||1|
+
+[PMC Code v5.4.1]|Pause||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Finished
+Context=None|
+Groups=Start:1
+1|Left Move & Click|489, 160 Left, 1|1|10|Click|||||1|
+
+[PMC Code v5.4.1]|Numpad1||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Clinic1
+Context=None|
+Groups=Patient List:1,Refresh:2,Message box:3,Clinic:4,Clinic 1:5,Patient:7
+1|F2|{F2}|1|10|Send|||||1|
+2|F5|{F5}|1|10|Send|||||3|
+3|Space|{Space}|1|10|Send|||||5|
+4|Down|{Down}|1|10|Send|||||7|
+5|Up|{Up}|4|10|Send|||||9|
+6|Down|{Down}|1|10|Send|||||11|
+7|Tab|{Tab}|10|10|Send|||||13|
+
+[PMC Code v5.4.1]|Numpad2||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Clinic2
+Context=None|
+Groups=Start:1
+1|F2|{F2}|1|10|Send|||||1|
+2|F5|{F5}|1|10|Send|||||3|
+3|Space|{Space}|1|10|Send|||||5|
+4|Down|{Down}|1|10|Send|||||7|
+5|Up|{Up}|4|10|Send|||||9|
+6|Down|{Down}|2|10|Send|||||11|
+7|Tab|{Tab}|10|10|Send|||||13|
+
+[PMC Code v5.4.1]|Numpad3||1|Window,2,Fast,0,1,Input,-1,-1,1|1|ClinicEmployee
+Context=None|
+Groups=Start:1
+1|F2|{F2}|1|10|Send|||||1|
+2|F5|{F5}|1|10|Send|||||3|
+3|Space|{Space}|1|10|Send|||||5|
+4|Down|{Down}|1|10|Send|||||7|
+5|Up|{Up}|4|10|Send|||||9|
+6|Down|{Down}|3|10|Send|||||11|
+7|Tab|{Tab}|10|10|Send|||||13|
+
+[PMC Code v5.4.1]|Numpad4||1|Window,2,Fast,0,1,Input,-1,-1,1|1|ClinicCertificate
+Context=None|
+Groups=Start:1
+1|F2|{F2}|1|10|Send|||||1|
+2|F5|{F5}|1|10|Send|||||3|
+3|Space|{Space}|1|10|Send|||||5|
+4|Down|{Down}|1|10|Send|||||7|
+5|Up|{Up}|4|10|Send|||||9|
+6|Down|{Down}|4|10|Send|||||11|
+7|Tab|{Tab}|10|10|Send|||||13|
+
+[PMC Code v5.4.1]|Numpad5||1|Window,2,Fast,0,1,Input,-1,-1,1|1|ClinicInfection
+Context=None|
+Groups=Start:1
+1|F2|{F2}|1|10|Send|||||1|
+2|F5|{F5}|1|10|Send|||||3|
+3|Space|{Space}|1|10|Send|||||5|
+4|Up|{Up}|3|10|Send|||||7|
+5|Space|{Space}|1|10|Send|||||9|
+6|F5|{F5}|1|10|Send|||||11|
+7|Space|{Space}|1|10|Send|||||13|
+8|Down|{Down}|1|10|Send|||||15|
+9|Up|{Up}|2|10|Send|||||17|
+10|Tab|{Tab}|10|10|Send|||||19|
+
+[PMC Code v5.4.1]|Numpad6||1|Window,2,Fast,0,1,Input,-1,-1,1|1|ReportInfection
+Context=None|
+Groups=Start:1
+1|Left Move & Click|285, 40 Left, 1|1|10|Click|||||1|
+2|[Pause]||1|300|Sleep|||||3|
+3|Left Move & Click|337, 547 Left, 1|1|10|Click|||||4|
+4|[Pause]||1|300|Sleep|||||6|
+5|Left Move & Click|926, 56 Left, 1|1|10|Click|||||7|
+6|[Pause]||1|300|Sleep|||||9|
+7|Left Move & Click|927, 138 Left, 1|1|10|Click|||||10|
+8|[Pause]||1|300|Sleep|||||12|
+9|End|{End}|1|0|Send|||||13|
+10|[Pause]||1|300|Sleep|||||14|
+11|Move|1602, 753, 0|1|10|Click|||||15|
+
+[PMC Code v5.4.1]|NumpadEnter||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Click
+Context=None|
+Groups=Start:1
+1|Left Click|Left, 1, |1|10|Click|||||1|
+
+[PMC Code v5.4.1]|^!Left||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Return
+Context=None|
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||[N]진료 - 강북삼성병원 감염내과 오원찬[XE7]|||1|
+
+[PMC Code v5.4.1]|^Space||1|Window,2,Fast,0,1,Input,-1,-1,1|1|FastOrderAided
+Context=None|
+Groups=Start:1,Order-Set:3,Order-COVID19:5,Order-Aided:7,Order-Submit:9,Form-New:17,Form-Sign:23,Order-Return:25,List-Patient:33
+1|Enter|{Enter}|1|0|Send|||||1|
+2|[Pause]||1|300|Sleep|||||2|
+3|Left Move & Click|77, 181 Left, 1|1|0|Click|||||3|
+4|[Pause]||1|300|Sleep|||||4|
+5|Left Move & Click|121, 290 Left, 2|1|0|Click|||||5|
+6|[Pause]||1|300|Sleep|||||6|
+7|Left Move & Click|193, 365 Left, 2|1|0|Click|||||7|
+8|[Pause]||1|300|Sleep|||||8|
+9|LAlt Down|{LAlt Down}|1|0|Send|||||9|
+10|[Pause]||1|0|Sleep|||||10|
+11|s|{s}|1|0|Send|||||11|
+12|[Pause]||1|0|Sleep|||||12|
+13|LAlt Up|{LAlt Up}|1|0|Send|||||13|
+14|[Pause]||1|100|Sleep|||||14|
+15|Space|{Space}|1|0|Send|||||15|
+16|[Pause]||1|1000|Sleep|||||16|
+17|Left Move & Click|2458, 160 Left, 2|1|0|Click|||||17|
+18|[Pause]||1|1000|Sleep|||||18|
+19|Left Move & Click|125, 109 Left, 2|1|0|Click|||||19|
+20|[Pause]||1|1500|Sleep|||||20|
+21|Left Move & Click|211, 339 Left, 2|1|0|Click|||||21|
+22|Enter|{Enter}|1|0|Send|||||22|
+23|Left Move & Click|231, 106 Left, 2|1|0|Click|||||23|
+24|[Pause]||1|1000|Sleep|||||24|
+25|LAlt Down|{LAlt Down}|1|0|Send|||||25|
+26|[Pause]||1|100|Sleep|||||26|
+27|Tab|{Tab}|1|0|Send|||||27|
+28|[Pause]||1|100|Sleep|||||28|
+29|Tab|{Tab}|1|0|Send|||||29|
+30|[Pause]||1|100|Sleep|||||30|
+31|LAlt Up|{LAlt Up}|1|0|Send|||||31|
+32|[Pause]||1|1000|Sleep|||||32|
+33|F2|{F2}|1|0|Send|||||33|
+
+[PMC Code v5.4.1]|^Enter||1|Window,2,Fast,0,1,Input,-1,-1,1|1|FastOrderGuardian
+Context=None|
+Groups=Start:1,Order-Set:3,Order-COVID19:5,Order-Guardian:7,Order-Submit:9,Form-New:17,Form-Text:23
+1|Enter|{Enter}|1|0|Send|||||1|
+2|[Pause]||1|300|Sleep|||||2|
+3|Left Move & Click|77, 181 Left, 1|1|0|Click|||||3|
+4|[Pause]||1|300|Sleep|||||4|
+5|Left Move & Click|121, 290 Left, 2|1|0|Click|||||5|
+6|[Pause]||1|300|Sleep|||||6|
+7|Left Move & Click|203, 424 Left, 2|1|0|Click|||||7|
+8|[Pause]||1|300|Sleep|||||8|
+9|LAlt Down|{LAlt Down}|1|0|Send|||||9|
+10|[Pause]||1|0|Sleep|||||10|
+11|s|{s}|1|0|Send|||||11|
+12|[Pause]||1|0|Sleep|||||12|
+13|LAlt Up|{LAlt Up}|1|0|Send|||||13|
+14|[Pause]||1|100|Sleep|||||14|
+15|Space|{Space}|1|0|Send|||||15|
+16|[Pause]||1|1000|Sleep|||||16|
+17|Left Move & Click|2458, 160 Left, 2|1|0|Click|||||17|
+18|[Pause]||1|500|Sleep|||||18|
+19|Left Move & Click|125, 109 Left, 2|1|0|Click|||||19|
+20|[Pause]||1|1500|Sleep|||||20|
+21|Left Move & Click|211, 339 Left, 2|1|0|Click|||||21|
+22|Enter|{Enter}|1|0|Send|||||22|
+23|[Text]|입원 (예정) 환자 보호자 (`,)|1|0|SendRaw|||||23|
+24|Left|{Left}|2|0|Send|||||24|
+
+[PMC Code v5.4.1]|^`||1|Window,2,Fast,0,1,Input,-1,-1,1|1|FastReportInfection
+Context=None|
+Groups=Start:1
+1|Left Click|Left, 1, |1|10|Click|||||1|
+2|[Pause]||1|300|Sleep|||||3|
+3|Alt|{Alt Down}|1|0|Send|||||4|
+4|[Pause]||1|300|Sleep|||||5|
+5|s|{s}|1|0|Send|||||6|
+6|[Pause]||1|300|Sleep|||||7|
+7|Alt|{Alt Up}|1|0|Send|||||8|
+8|[Pause]||1|300|Sleep|||||9|
+9|Space|{Space}|1|0|Send|||||10|
+10|[Pause]||1|300|Sleep|||||11|
+11|Alt|{Alt Down}|1|0|Send|||||12|
+12|[Pause]||1|300|Sleep|||||13|
+13|x|{x}|1|0|Send|||||14|
+14|[Pause]||1|300|Sleep|||||15|
+15|Alt|{Alt Up}|1|0|Send|||||16|
+
+[PMC Code v5.4.1]|^!s||1|Window,2,Fast,0,1,Input,-1,-1,1|1|SortName
+Context=None|
+Groups=Start:1
+1|Left Move & Click|107, 191 Left, 1|1|10|Click||||||
+
+[PMC Code v5.4.1]|^!c||1|Window,2,Fast,0,1,Input,-1,-1,1|1|CertificateChinese
+Context=None|
+Groups=Start:1,Certificates:3,COVID19:5,Chinese:7,Save:9,Quit:11,Patient group:13
+1|Enter|{Enter}|1|0|Send|||||1|
+2|[Pause]||1|2000|Sleep|||||2|
+3|Left Move & Click|55, 91 Left, 1|1|10|Click|||||3|
+4|[Pause]||1|2000|Sleep|||||5|
+5|Left Move & Click|908, 165 Left, 1|1|10|Click|||||6|
+6|[Pause]||1|300|Sleep|||||8|
+7|Left Move & Click|212, 155 Left, 1|1|10|Click|||||9|
+8|[Pause]||1|300|Sleep|||||11|
+9|Left Move & Click|651, 730 Left, 1|1|10|Click|||||12|
+10|[Pause]||1|300|Sleep|||||14|
+11|Left Move & Click|908, 731 Left, 1|1|10|Click|||||15|
+12|[Pause]||1|300|Sleep|||||17|
+13|F2|{F2}|1|0|Send|||||18|
+
+[PMC Code v5.4.1]|^!e||1|Window,2,Fast,0,1,Input,-1,-1,1|1|CertificateEnglish
+Context=None|
+Groups=Start:1,Certificates:3,COVID19:5,English:7,Swap:9,Save:23,Quit:25
+1|Enter|{Enter}|1|0|Send|||||1|
+2|[Pause]||1|2000|Sleep|||||2|
+3|Left Move & Click|55, 91 Left, 1|1|10|Click|||||3|
+4|[Pause]||1|2000|Sleep|||||5|
+5|Left Move & Click|908, 165 Left, 1|1|10|Click|||||6|
+6|[Pause]||1|300|Sleep|||||8|
+7|Left Move & Click|356, 157 Left, 1|1|10|Click|||||9|
+8|[Pause]||1|300|Sleep|||||11|
+9|Left Move & Click|445, 238 Left, 2|1|10|Click|||||12|
+10|[Pause]||1|100|Sleep|||||14|
+11|Right Move & Click|445, 238 Right, 1|1|10|Click|||||15|
+12|[Pause]||1|100|Sleep|||||17|
+13|Left Move & Click|448, 280 Left, 1|1|10|Click|||||18|
+14|[Pause]||1|100|Sleep|||||20|
+15|Left Move & Click|264, 238 Left, 1|1|10|Click|||||21|
+16|[Pause]||1|100|Sleep|||||23|
+17|Right Move & Click|264, 238 Right, 1|1|10|Click|||||24|
+18|[Pause]||1|100|Sleep|||||26|
+19|Left Move & Click|304, 326 Left, 1|1|10|Click|||||27|
+20|[Pause]||1|100|Sleep|||||29|
+21|Space|{Space}|1|0|Send|||||30|
+22|[Pause]||1|100|Sleep|||||31|
+23|Left Move & Click|651, 730 Left, 1|1|10|Click|||||32|
+24|[Pause]||1|100|Sleep|||||34|
+25|Move|908, 731, 0|1|10|Click|||||35|
+
+[PMC Code v5.4.1]|^a||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Admission
+Context=None|
+Groups=Start:1
+1|[Text]|입원 (예정) 환자 보호자 (`,)|1|0|SendRaw|||||1|
+2|Left|{Left}|2|10|Send|||||2|
+
+[PMC Code v5.4.1]|^q||1|Window,2,Fast,0,1,Input,-1,-1,1|1|HistoryVaccination
+Context=None|
+Groups=Start:1
+1|[Text]|코로나19 백신 3차 접종함|1|0|SendRaw|||||1|
+2|Left|{Left}|5|0|Send|||||2|
+
+[PMC Code v5.4.1]|^p||1|Window,2,Fast,0,1,Input,-1,-1,1|1|HistoryDiagnosis
+Context=None|
+Groups=Start:1
+1|[Text]|코로나19 확진됨`, 격리 해제됨|1|0|SendRaw|||||1|
+2|Left|{Left}|17|1|Send|||||2|
+
+[PMC Code v5.4.1]|^NumpadSub||1|Window,2,Fast,0,1,Input,-1,-1,1|1|ChangePayment
+Context=None|
+Groups=Start:1
+1|Enter|{Enter}|1|0|Send|||||1|
+2|[Pause]||1|300|Sleep|||||2|
+3|Right Move & Click|181, 312 Right, 1|1|10|Click|||||3|
+4|[Pause]||1|300|Sleep|||||5|
+5|Left Move & Click|221, 346 Left, 1|1|10|Click|||||6|
+6|[Pause]||1|300|Sleep|||||8|
+7|Space|{Space}|1|0|Send|||||9|
+8|[Pause]||1|300|Sleep|||||10|
+9|F2|{F2}|1|0|Send|||||11|
+
+[PMC Code v5.4.1]|^i||1|Window,2,Fast,0,1,Input,-1,-1,1|1|DeprecatedSubsidizedInfectious
+Context=None|
+Groups=Start:1
+1|Left Move & Click|749, 677 Left, 1|1|10|Click|||||1|
+2|Left Move & Click|859, 703 Left, 1|1|10|Click|||||3|
+3|[Text]|3|1|0|SendRaw|||||5|
+
+[PMC Code v5.4.1]|F10||1|Window,2,Fast,0,1,Input,-1,-1,1|1|DeprecatedInfectiousForm
+Context=None|
+Groups=Start:1,Department:2,Body:6
+1|Left Move & Click|882, 46 Left, 1|1|10|Click|||||1|
+2|Left Move & Click|324, 63 Left, 1|1|10|Click|||||3|
+3|Left Move & Click|249, 175 Left, 1|1|10|Click|||||5|
+4|Left Move & Click|389, 63 Left, 1|1|10|Click|||||7|
+5|[Text]|오원찬`n|1|0|SendRaw|||||9|
+6|Left Move & Click|332, 178 Left, 1|1|10|Click|||||14|
+7|Left Move & Click|212, 420 Left, 1|1|10|Click|||||16|
+8|Left Move & Click|645, 229 Left, 1|1|10|Click|||||18|
+9|Left Move & Click|273, 618 Left, 1|1|10|Click|||||20|
+10|Left Move & Click|190, 725 Left, 1|1|10|Click|||||22|
+11|Left Move & Click|455, 625 Left, 1|1|10|Click|||||24|
+12|Left Move & Click|749, 624 Left, 1|1|10|Click|||||26|
+13|Left Move & Click|969, 676 Left, 1|1|10|Click|||||28|
+14|F2|{F2}|1|0|Send||||||
+
