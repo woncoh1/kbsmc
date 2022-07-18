@@ -1,4 +1,4 @@
-# Kangbuk Samsung Hospital (KBSMC) COVID-19 Screening Clinic (SC)
+# KBSMC COVID-19 SC: Keyboard Macros
 - Programming Language: [AutoHotkey](https://www.autohotkey.com/)
 - IDE: [Pulover's Macro Creator](https://www.macrocreator.com/)
 - Screening Clinics
