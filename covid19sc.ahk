@@ -182,7 +182,7 @@ Send, {Space}
 Sleep, 10
 Send, {Down}
 Sleep, 10
-Send, {Up 2}
+Send, {Up 3}
 Sleep, 10
 Send, {Tab 10}
 Sleep, 10
@@ -223,7 +223,7 @@ Return
 ^Space::
 FastOrderAided:
 Send, {Enter}
-Sleep, 300
+Sleep, 1000
 Click, 77, 181 Left, 1
 Sleep, 300
 Click, 121, 290 Left, 2
@@ -239,9 +239,9 @@ Sleep, 100
 Send, {Space}
 Sleep, 1000
 Click, 2458, 160 Left, 2
-Sleep, 1000
+Sleep, 500
 Click, 125, 109 Left, 2
-Sleep, 1500
+Sleep, 2000
 Click, 211, 339 Left, 2
 Send, {Enter}
 Click, 231, 106 Left, 2
@@ -260,7 +260,7 @@ Return
 ^Enter::
 FastOrderGuardian:
 Send, {Enter}
-Sleep, 300
+Sleep, 500
 Click, 77, 181 Left, 1
 Sleep, 300
 Click, 121, 290 Left, 2
@@ -376,8 +376,8 @@ Return
 ^a::
 Admission:
 SendRaw, 입원 (예정) 환자 보호자 (`,)
+Sleep, 500
 Send, {Left 2}
-Sleep, 10
 Return
 
 ^q::
