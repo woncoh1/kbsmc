@@ -296,6 +296,11 @@ Groups=Start:1
 1|[Text]|코로나19 확진됨`, 격리 해제됨|1|0|SendRaw|||||1|
 2|Left|{Left}|17|1|Send|||||2|
 
+[PMC Code v5.4.1]|^n||1|Window,2,Fast,0,1,Input,-1,-1,1|1|HistoryNone
+Context=None|
+Groups=Start:1
+1|[Text]|코로나19 백신 미접종`, 확진 이력 없음|1|0|SendRaw|||||1|
+
 [PMC Code v5.4.1]|^NumpadSub||1|Window,2,Fast,0,1,Input,-1,-1,1|1|ChangePayment
 Context=None|
 Groups=Start:1

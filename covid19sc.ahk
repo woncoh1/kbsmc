@@ -393,6 +393,11 @@ Send, {Left 17}
 Sleep, 1
 Return
 
+^n::
+HistoryNone:
+SendRaw, 코로나19 백신 미접종`, 확진 이력 없음
+Return
+
 ^NumpadSub::
 ChangePayment:
 Send, {Enter}
