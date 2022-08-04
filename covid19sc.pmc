@@ -287,8 +287,8 @@ Groups=Start:1
 [PMC Code v5.4.1]|^q||1|Window,2,Fast,0,1,Input,-1,-1,1|1|HistoryVaccination
 Context=None|
 Groups=Start:1
-1|[Text]|코로나19 백신 3차 접종함|1|0|SendRaw|||||1|
-2|Left|{Left}|5|0|Send|||||2|
+1|[Text]|코로나19 백신 3차 접종 완료함|1|0|SendRaw|||||1|
+2|Left|{Left}|8|0|Send|||||2|
 
 [PMC Code v5.4.1]|^p||1|Window,2,Fast,0,1,Input,-1,-1,1|1|HistoryDiagnosis
 Context=None|

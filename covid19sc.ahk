@@ -382,8 +382,8 @@ Return
 
 ^q::
 HistoryVaccination:
-SendRaw, 코로나19 백신 3차 접종함
-Send, {Left 5}
+SendRaw, 코로나19 백신 3차 접종 완료함
+Send, {Left 8}
 Return
 
 ^p::
