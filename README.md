@@ -6,5 +6,5 @@
   - SC 2: acute systemic, respiratory, or other COVID-19-related symptoms
 
 ## TODO
-- User guide
+- Tutorial
 - Reference
