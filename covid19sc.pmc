@@ -161,7 +161,7 @@ Groups=Start:1,Order-Set:3,Order-COVID19:5,Order-Aided:7,Order-Submit:9,Form-New
 14|[Pause]||1|100|Sleep|||||14|
 15|Space|{Space}|1|0|Send|||||15|
 16|[Pause]||1|1000|Sleep|||||16|
-17|Left Move & Click|2458, 160 Left, 2|1|0|Click|||||17|
+17|Left Move & Click|2446, 89 Left, 2|1|0|Click|||||17|
 18|[Pause]||1|500|Sleep|||||18|
 19|Left Move & Click|125, 109 Left, 2|1|0|Click|||||19|
 20|[Pause]||1|2000|Sleep|||||20|
@@ -293,8 +293,8 @@ Groups=Start:1
 [PMC Code v5.4.1]|^p||1|Window,2,Fast,0,1,Input,-1,-1,1|1|HistoryDiagnosis
 Context=None|
 Groups=Start:1
-1|[Text]|코로나19 확진됨`, 격리 해제됨|1|0|SendRaw|||||1|
-2|Left|{Left}|17|1|Send|||||2|
+1|[Text]|코로나19 확진됨|1|0|SendRaw|||||1|
+2|Left|{Left}|9|1|Send|||||2|
 
 [PMC Code v5.4.1]|^n||1|Window,2,Fast,0,1,Input,-1,-1,1|1|HistoryNone
 Context=None|

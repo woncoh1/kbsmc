@@ -238,7 +238,7 @@ Send, {LAlt Up}
 Sleep, 100
 Send, {Space}
 Sleep, 1000
-Click, 2458, 160 Left, 2
+Click, 2446, 89 Left, 2
 Sleep, 500
 Click, 125, 109 Left, 2
 Sleep, 2000
@@ -388,8 +388,8 @@ Return
 
 ^p::
 HistoryDiagnosis:
-SendRaw, 코로나19 확진됨`, 격리 해제됨
-Send, {Left 17}
+SendRaw, 코로나19 확진됨
+Send, {Left 9}
 Sleep, 1
 Return
 
