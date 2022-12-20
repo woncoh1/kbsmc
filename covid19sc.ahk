@@ -220,6 +220,54 @@ WinActivate, [N]진료 - 강북삼성병원 감염내과 오원찬[XE7]
 Sleep, 333
 Return
 
+^!Space::
+FastOrderCovid19Influenza:
+Send, {Enter}
+Sleep, 1000
+Click, 77, 181 Left, 1
+Sleep, 300
+Click, 121, 290 Left, 2
+Sleep, 300
+Click, 211, 516 Left, 2
+Sleep, 300
+Click, 465, 229 Left, 2
+Sleep, 10
+Sleep, 300
+Click, 224, 65 Left, 1
+Sleep, 10
+Sleep, 300
+Click, 663, 64 Left, 1
+Sleep, 10
+Sleep, 300
+Send, {LAlt Down}
+Sleep, 0
+Send, {s}
+Sleep, 0
+Send, {LAlt Up}
+Sleep, 100
+Send, {Space}
+Sleep, 1000
+Click, 2446, 89 Left, 2
+Sleep, 500
+Click, 125, 109 Left, 2
+Sleep, 2000
+Click, 211, 339 Left, 2
+Send, {Enter}{Tab 12}
+Sleep, 100
+SendRaw, 독감검사 동시진행함
+Click, 231, 106 Left, 2
+Sleep, 1000
+Send, {LAlt Down}
+Sleep, 100
+Send, {Tab}
+Sleep, 100
+Send, {Tab}
+Sleep, 100
+Send, {LAlt Up}
+Sleep, 1000
+Send, {F2}
+Return
+
 ^Space::
 FastOrderAided:
 Send, {Enter}

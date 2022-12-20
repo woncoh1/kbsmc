@@ -142,6 +142,52 @@ Context=None|
 Groups=Start:1
 1|WinActivate||1|333|WinActivate||[N]진료 - 강북삼성병원 감염내과 오원찬[XE7]|||1|
 
+[PMC Code v5.4.1]|^!Space||1|Window,2,Fast,0,1,Input,-1,-1,1|1|FastOrderCovid19Influenza
+Context=None|
+Groups=Start:1,Order-Set:3,Order-COVID19:5,Order-Both:7,Order-Submit:15,Form-New:23,Input-ETC:29,Form-Sign:32,Order-Return:34,Order-Return:34,List:40,List-Patient:41,List-Patient:42
+1|Enter|{Enter}|1|0|Send|||||1|
+2|[Pause]||1|1000|Sleep|||||2|
+3|Left Move & Click|77, 181 Left, 1|1|0|Click|||||3|
+4|[Pause]||1|300|Sleep|||||4|
+5|Left Move & Click|121, 290 Left, 2|1|0|Click|||||5|
+6|[Pause]||1|300|Sleep|||||6|
+7|Left Move & Click|211, 516 Left, 2|1|0|Click|||||7|
+8|[Pause]||1|300|Sleep|||||8|
+9|Left Move & Click|465, 229 Left, 2|1|10|Click|||||9|
+10|[Pause]||1|300|Sleep|||||11|
+11|Left Move & Click|224, 65 Left, 1|1|10|Click|||||12|
+12|[Pause]||1|300|Sleep|||||14|
+13|Left Move & Click|663, 64 Left, 1|1|10|Click|||||15|
+14|[Pause]||1|300|Sleep|||||17|
+15|LAlt Down|{LAlt Down}|1|0|Send|||||18|
+16|[Pause]||1|0|Sleep|||||19|
+17|s|{s}|1|0|Send|||||20|
+18|[Pause]||1|0|Sleep|||||21|
+19|LAlt Up|{LAlt Up}|1|0|Send|||||22|
+20|[Pause]||1|100|Sleep|||||23|
+21|Space|{Space}|1|0|Send|||||24|
+22|[Pause]||1|1000|Sleep|||||25|
+23|Left Move & Click|2446, 89 Left, 2|1|0|Click|||||26|
+24|[Pause]||1|500|Sleep|||||27|
+25|Left Move & Click|125, 109 Left, 2|1|0|Click|||||28|
+26|[Pause]||1|2000|Sleep|||||29|
+27|Left Move & Click|211, 339 Left, 2|1|0|Click|||||30|
+28|Enter|{Enter}|1|0|Send|||||31|
+29|Tab|{Tab}|12|0|Send|||||32|
+30|[Pause]||1|100|Sleep|||||32|
+31|[Text]|독감검사 동시진행함|1|0|SendRaw|||||33|
+32|Left Move & Click|231, 106 Left, 2|1|0|Click|||||34|
+33|[Pause]||1|1000|Sleep|||||35|
+34|LAlt Down|{LAlt Down}|1|0|Send|||||36|
+35|[Pause]||1|100|Sleep|||||37|
+36|Tab|{Tab}|1|0|Send|||||38|
+37|[Pause]||1|100|Sleep|||||39|
+38|Tab|{Tab}|1|0|Send|||||40|
+39|[Pause]||1|100|Sleep|||||41|
+40|LAlt Up|{LAlt Up}|1|0|Send|||||42|
+41|[Pause]||1|1000|Sleep|||||43|
+42|F2|{F2}|1|0|Send|||||44|
+
 [PMC Code v5.4.1]|^Space||1|Window,2,Fast,0,1,Input,-1,-1,1|1|FastOrderAided
 Context=None|
 Groups=Start:1,Order-Set:3,Order-COVID19:5,Order-Aided:7,Order-Submit:9,Form-New:17,Form-Sign:23,Order-Return:25,List-Patient:33
