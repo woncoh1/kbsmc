@@ -34,10 +34,32 @@ Context=None|
 Groups=Start:1
 1|Tab|{Tab}|7|10|Send|||||1|
 
+[PMC Code v5.4.1]|F8||1|Window,2,Fast,0,1,Input,-1,-1,1|1|OrderCovid19Influenza
+Context=None|
+Groups=Start:1
+1|Left Move & Click|211, 516 Left, 2|1|0|Click|||||1|
+2|[Pause]||1|500|Sleep|||||2|
+3|Left Move & Click|465, 229 Left, 2|1|0|Click|||||3|
+4|[Pause]||1|500|Sleep|||||4|
+5|Left Move & Click|224, 65 Left, 1|1|0|Click|||||5|
+6|[Pause]||1|500|Sleep|||||6|
+7|Left Move & Click|663, 64 Left, 1|1|0|Click|||||7|
+8|[Pause]||1|500|Sleep|||||8|
+
 [PMC Code v5.4.1]|F11||1|Window,2,Fast,0,1,Input,-1,-1,1|1|EMRForm
 Context=None|
 Groups=Start:1
 1|Left Move & Click|2458, 160 Left, 2|1|10|Click|||||1|
+2|[Pause]||1|300|Sleep|||||3|
+3|Left Move & Click|125, 109 Left, 2|1|10|Click|||||4|
+4|[Pause]||1|2000|Sleep|||||6|
+5|Left Move & Click|211, 339 Left, 2|1|10|Click|||||7|
+6|[Text]|`n|1|0|SendRaw|||||9|
+
+[PMC Code v5.4.1]|^F11||1|Window,2,Fast,0,1,Input,-1,-1,1|1|EMRForm2
+Context=None|
+Groups=Start:1
+1|Left Move & Click|2447, 89 Left, 2|1|10|Click|||||1|
 2|[Pause]||1|300|Sleep|||||3|
 3|Left Move & Click|125, 109 Left, 2|1|10|Click|||||4|
 4|[Pause]||1|2000|Sleep|||||6|
@@ -148,45 +170,45 @@ Groups=Start:1,Order-Set:3,Order-COVID19:5,Order-Both:7,Order-Submit:15,Form-New
 1|Enter|{Enter}|1|0|Send|||||1|
 2|[Pause]||1|1000|Sleep|||||2|
 3|Left Move & Click|77, 181 Left, 1|1|0|Click|||||3|
-4|[Pause]||1|300|Sleep|||||4|
+4|[Pause]||1|500|Sleep|||||4|
 5|Left Move & Click|121, 290 Left, 2|1|0|Click|||||5|
-6|[Pause]||1|300|Sleep|||||6|
+6|[Pause]||1|500|Sleep|||||6|
 7|Left Move & Click|211, 516 Left, 2|1|0|Click|||||7|
-8|[Pause]||1|300|Sleep|||||8|
-9|Left Move & Click|465, 229 Left, 2|1|10|Click|||||9|
-10|[Pause]||1|300|Sleep|||||11|
-11|Left Move & Click|224, 65 Left, 1|1|10|Click|||||12|
-12|[Pause]||1|300|Sleep|||||14|
-13|Left Move & Click|663, 64 Left, 1|1|10|Click|||||15|
-14|[Pause]||1|300|Sleep|||||17|
-15|LAlt Down|{LAlt Down}|1|0|Send|||||18|
-16|[Pause]||1|0|Sleep|||||19|
-17|s|{s}|1|0|Send|||||20|
-18|[Pause]||1|0|Sleep|||||21|
-19|LAlt Up|{LAlt Up}|1|0|Send|||||22|
-20|[Pause]||1|100|Sleep|||||23|
-21|Space|{Space}|1|0|Send|||||24|
-22|[Pause]||1|1000|Sleep|||||25|
-23|Left Move & Click|2446, 89 Left, 2|1|0|Click|||||26|
-24|[Pause]||1|500|Sleep|||||27|
-25|Left Move & Click|125, 109 Left, 2|1|0|Click|||||28|
-26|[Pause]||1|2000|Sleep|||||29|
-27|Left Move & Click|211, 339 Left, 2|1|0|Click|||||30|
-28|Enter|{Enter}|1|0|Send|||||31|
-29|Tab|{Tab}|12|0|Send|||||32|
-30|[Pause]||1|100|Sleep|||||32|
-31|[Text]|독감검사 동시진행함|1|0|SendRaw|||||33|
-32|Left Move & Click|231, 106 Left, 2|1|0|Click|||||34|
-33|[Pause]||1|1000|Sleep|||||35|
-34|LAlt Down|{LAlt Down}|1|0|Send|||||36|
-35|[Pause]||1|100|Sleep|||||37|
-36|Tab|{Tab}|1|0|Send|||||38|
-37|[Pause]||1|100|Sleep|||||39|
-38|Tab|{Tab}|1|0|Send|||||40|
-39|[Pause]||1|100|Sleep|||||41|
-40|LAlt Up|{LAlt Up}|1|0|Send|||||42|
-41|[Pause]||1|1000|Sleep|||||43|
-42|F2|{F2}|1|0|Send|||||44|
+8|[Pause]||1|500|Sleep|||||8|
+9|Left Move & Click|465, 229 Left, 2|1|0|Click|||||9|
+10|[Pause]||1|500|Sleep|||||10|
+11|Left Move & Click|224, 65 Left, 1|1|0|Click|||||11|
+12|[Pause]||1|500|Sleep|||||12|
+13|Left Move & Click|663, 64 Left, 1|1|0|Click|||||13|
+14|[Pause]||1|500|Sleep|||||14|
+15|LAlt Down|{LAlt Down}|1|0|Send|||||15|
+16|[Pause]||1|0|Sleep|||||16|
+17|s|{s}|1|0|Send|||||17|
+18|[Pause]||1|0|Sleep|||||18|
+19|LAlt Up|{LAlt Up}|1|0|Send|||||19|
+20|[Pause]||1|100|Sleep|||||20|
+21|Space|{Space}|1|0|Send|||||21|
+22|[Pause]||1|1000|Sleep|||||22|
+23|Left Move & Click|2446, 89 Left, 2|1|0|Click|||||23|
+24|[Pause]||1|500|Sleep|||||24|
+25|Left Move & Click|125, 109 Left, 2|1|0|Click|||||25|
+26|[Pause]||1|2000|Sleep|||||26|
+27|Left Move & Click|211, 339 Left, 2|1|0|Click|||||27|
+28|Enter|{Enter}|1|0|Send|||||28|
+29|Tab|{Tab}|12|0|Send|||||29|
+30|[Pause]||1|100|Sleep|||||29|
+31|[Text]|독감검사 동시진행함|1|0|SendRaw|||||30|
+32|Left Move & Click|231, 106 Left, 2|1|0|Click|||||31|
+33|[Pause]||1|1000|Sleep|||||32|
+34|LAlt Down|{LAlt Down}|1|0|Send|||||33|
+35|[Pause]||1|100|Sleep|||||34|
+36|Tab|{Tab}|1|0|Send|||||35|
+37|[Pause]||1|100|Sleep|||||36|
+38|Tab|{Tab}|1|0|Send|||||37|
+39|[Pause]||1|100|Sleep|||||38|
+40|LAlt Up|{LAlt Up}|1|0|Send|||||39|
+41|[Pause]||1|1000|Sleep|||||40|
+42|F2|{F2}|1|0|Send|||||41|
 
 [PMC Code v5.4.1]|^Space||1|Window,2,Fast,0,1,Input,-1,-1,1|1|FastOrderAided
 Context=None|

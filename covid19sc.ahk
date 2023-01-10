@@ -57,9 +57,38 @@ Send, {Tab 7}
 Sleep, 10
 Return
 
+F8::
+OrderCovid19Influenza:
+Click, 211, 516 Left, 2
+Sleep, 500
+Click, 465, 229 Left, 2
+Sleep, 500
+Click, 224, 65 Left, 1
+Sleep, 500
+Click, 663, 64 Left, 1
+Sleep, 500
+Return
+
 F11::
 EMRForm:
 Click, 2458, 160 Left, 2
+Sleep, 10
+Sleep, 300
+Click, 125, 109 Left, 2
+Sleep, 10
+Sleep, 2000
+Click, 211, 339 Left, 2
+Sleep, 10
+SendRaw, 
+(LTrim
+
+
+)
+Return
+
+^F11::
+EMRForm2:
+Click, 2447, 89 Left, 2
 Sleep, 10
 Sleep, 300
 Click, 125, 109 Left, 2
@@ -225,20 +254,17 @@ FastOrderCovid19Influenza:
 Send, {Enter}
 Sleep, 1000
 Click, 77, 181 Left, 1
-Sleep, 300
+Sleep, 500
 Click, 121, 290 Left, 2
-Sleep, 300
+Sleep, 500
 Click, 211, 516 Left, 2
-Sleep, 300
+Sleep, 500
 Click, 465, 229 Left, 2
-Sleep, 10
-Sleep, 300
+Sleep, 500
 Click, 224, 65 Left, 1
-Sleep, 10
-Sleep, 300
+Sleep, 500
 Click, 663, 64 Left, 1
-Sleep, 10
-Sleep, 300
+Sleep, 500
 Send, {LAlt Down}
 Sleep, 0
 Send, {s}
