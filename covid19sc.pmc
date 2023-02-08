@@ -14,7 +14,7 @@ Context=None|
 Groups=Start:1
 1|Left Move & Click|197, 303 Left, 2|1|10|Click|||||1|
 
-[PMC Code v5.4.1]|F4||1|Window,2,Fast,0,1,Input,-1,-1,1|1|OrderAided
+[PMC Code v5.4.1]|F4||1|Window,2,Fast,0,1,Input,-1,-1,1|1|OrderMedicalAid
 Context=None|
 Groups=Start:1
 1|Left Move & Click|193, 365 Left, 2|1|10|Click|||||1|
@@ -29,7 +29,7 @@ Context=None|
 Groups=Start:1
 1|Left Move & Click|202, 420 Left, 2|1|10|Click|||||1|
 
-[PMC Code v5.4.1]|F7||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Tab7
+[PMC Code v5.4.1]|F7||1|Window,2,Fast,0,1,Input,-1,-1,1|1|TabX7
 Context=None|
 Groups=Start:1
 1|Tab|{Tab}|7|10|Send|||||1|
@@ -139,7 +139,7 @@ Groups=Refresh:1,Switch mode:4,Refresh again:6,Switch clinic:8
 9|Up|{Up}|3|10|Send|||||17|
 10|Tab|{Tab}|10|10|Send|||||19|
 
-[PMC Code v5.4.1]|Numpad6||1|Window,2,Fast,0,1,Input,-1,-1,1|1|ReportInfection
+[PMC Code v5.4.1]|Numpad6||1|Window,2,Fast,0,1,Input,-1,-1,1|1|ClinicReportInfection
 Context=None|
 Groups=Start:1
 1|Left Move & Click|285, 40 Left, 1|1|10|Click|||||1|
@@ -210,7 +210,7 @@ Groups=Start:1,Order-Set:3,Order-COVID19:5,Order-Both:7,Order-Submit:15,Form-New
 41|[Pause]||1|1000|Sleep|||||40|
 42|F2|{F2}|1|0|Send|||||41|
 
-[PMC Code v5.4.1]|^Space||1|Window,2,Fast,0,1,Input,-1,-1,1|1|FastOrderAided
+[PMC Code v5.4.1]|^Space||1|Window,2,Fast,0,1,Input,-1,-1,1|1|FastOrderMedicalAid
 Context=None|
 Groups=Start:1,Order-Set:3,Order-COVID19:5,Order-Aided:7,Order-Submit:9,Form-New:17,Form-Sign:23,Order-Return:25,List-Patient:33
 1|Enter|{Enter}|1|0|Send|||||1|
@@ -294,7 +294,7 @@ Groups=Start:1
 14|[Pause]||1|300|Sleep|||||15|
 15|Alt|{Alt Up}|1|0|Send|||||16|
 
-[PMC Code v5.4.1]|^!s||1|Window,2,Fast,0,1,Input,-1,-1,1|1|SortName
+[PMC Code v5.4.1]|^!s||1|Window,2,Fast,0,1,Input,-1,-1,1|1|SortByName
 Context=None|
 Groups=Start:1
 1|Left Move & Click|107, 191 Left, 1|1|10|Click||||||
@@ -345,31 +345,31 @@ Groups=Start:1,Certificates:3,COVID19:5,English:7,Swap:9,Save:23,Quit:25
 24|[Pause]||1|100|Sleep|||||34|
 25|Move|908, 731, 0|1|10|Click|||||35|
 
-[PMC Code v5.4.1]|^a||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Admission
+[PMC Code v5.4.1]|^a||1|Window,2,Fast,0,1,Input,-1,-1,1|1|TemplateGuardianAdmission
 Context=None|
 Groups=Start:1
 1|[Text]|입원 (예정) 환자 보호자 (`,)|1|0|SendRaw|||||1|
 2|[Pause]||1|500|Sleep|||||2|
 3|Left|{Left}|2|0|Send|||||3|
 
-[PMC Code v5.4.1]|^q||1|Window,2,Fast,0,1,Input,-1,-1,1|1|HistoryVaccination
+[PMC Code v5.4.1]|^q||1|Window,2,Fast,0,1,Input,-1,-1,1|1|TemplateHistoryVaccination
 Context=None|
 Groups=Start:1
 1|[Text]|코로나19 백신 3차 접종 완료함|1|0|SendRaw|||||1|
 2|Left|{Left}|8|0|Send|||||2|
 
-[PMC Code v5.4.1]|^p||1|Window,2,Fast,0,1,Input,-1,-1,1|1|HistoryDiagnosis
+[PMC Code v5.4.1]|^p||1|Window,2,Fast,0,1,Input,-1,-1,1|1|TemplateHistoryDiagnosis
 Context=None|
 Groups=Start:1
 1|[Text]|코로나19 확진됨|1|0|SendRaw|||||1|
 2|Left|{Left}|9|1|Send|||||2|
 
-[PMC Code v5.4.1]|^n||1|Window,2,Fast,0,1,Input,-1,-1,1|1|HistoryNone
+[PMC Code v5.4.1]|^n||1|Window,2,Fast,0,1,Input,-1,-1,1|1|TemplateHistoryNone
 Context=None|
 Groups=Start:1
 1|[Text]|코로나19 백신 미접종`, 확진 이력 없음|1|0|SendRaw|||||1|
 
-[PMC Code v5.4.1]|^NumpadSub||1|Window,2,Fast,0,1,Input,-1,-1,1|1|ChangePayment
+[PMC Code v5.4.1]|^NumpadSub||1|Window,2,Fast,0,1,Input,-1,-1,1|1|ChangePaymentMethod
 Context=None|
 Groups=Start:1
 1|Enter|{Enter}|1|0|Send|||||1|

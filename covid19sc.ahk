@@ -34,7 +34,7 @@ Sleep, 10
 Return
 
 F4::
-OrderAided:
+OrderMedicalAid:
 Click, 193, 365 Left, 2
 Sleep, 10
 Return
@@ -52,7 +52,7 @@ Sleep, 10
 Return
 
 F7::
-Tab7:
+TabX7:
 Send, {Tab 7}
 Sleep, 10
 Return
@@ -218,7 +218,7 @@ Sleep, 10
 Return
 
 Numpad6::
-ReportInfection:
+ClinicReportInfection:
 Click, 285, 40 Left, 1
 Sleep, 10
 Sleep, 300
@@ -295,7 +295,7 @@ Send, {F2}
 Return
 
 ^Space::
-FastOrderAided:
+FastOrderMedicalAid:
 Send, {Enter}
 Sleep, 1000
 Click, 77, 181 Left, 1
@@ -380,7 +380,7 @@ Send, {Alt Up}
 Return
 
 ^!s::
-SortName:
+SortByName:
 Click, 107, 191 Left, 1
 Sleep, 10
 Return
@@ -448,32 +448,32 @@ Sleep, 10
 Return
 
 ^a::
-Admission:
+TemplateGuardianAdmission:
 SendRaw, 입원 (예정) 환자 보호자 (`,)
 Sleep, 500
 Send, {Left 2}
 Return
 
 ^q::
-HistoryVaccination:
+TemplateHistoryVaccination:
 SendRaw, 코로나19 백신 3차 접종 완료함
 Send, {Left 8}
 Return
 
 ^p::
-HistoryDiagnosis:
+TemplateHistoryDiagnosis:
 SendRaw, 코로나19 확진됨
 Send, {Left 9}
 Sleep, 1
 Return
 
 ^n::
-HistoryNone:
+TemplateHistoryNone:
 SendRaw, 코로나19 백신 미접종`, 확진 이력 없음
 Return
 
 ^NumpadSub::
-ChangePayment:
+ChangePaymentMethod:
 Send, {Enter}
 Sleep, 300
 Click, 181, 312 Right, 1
