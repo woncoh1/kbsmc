@@ -66,6 +66,12 @@ Groups=Start:1
 5|Left Move & Click|211, 339 Left, 2|1|10|Click|||||7|
 6|[Text]|`n|1|0|SendRaw|||||9|
 
+[PMC Code v5.4.1]|!F11||1|Window,2,Fast,0,1,Input,-1,-1,1|1|EMRFormClick
+Context=None|
+Groups=Start:1
+1|Left Move & Click|211, 339 Left, 2|1|10|Click|||||7|
+2|[Text]|`n|1|0|SendRaw|||||9|
+
 [PMC Code v5.4.1]|F12||1|Window,2,Fast,0,1,Input,-1,-1,1|1|EMRSign
 Context=None|
 Groups=Start:1

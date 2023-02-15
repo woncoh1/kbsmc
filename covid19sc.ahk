@@ -103,6 +103,17 @@ SendRaw,
 )
 Return
 
+!F11::
+EMRFormClick:
+Click, 211, 339 Left, 2
+Sleep, 10
+SendRaw, 
+(LTrim
+
+
+)
+Return
+
 F12::
 EMRSign:
 Click, 231, 106 Left, 2
