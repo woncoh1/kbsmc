@@ -27,7 +27,7 @@ Groups=Start:1
 [PMC Code v5.4.1]|F6||1|Window,2,Fast,0,1,Input,-1,-1,1|1|OrderGuardian
 Context=None|
 Groups=Start:1
-1|Left Move & Click|202, 420 Left, 2|1|10|Click|||||1|
+1|Left Move & Click|221, 455 Left, 2|1|10|Click|||||1|
 
 [PMC Code v5.4.1]|F7||1|Window,2,Fast,0,1,Input,-1,-1,1|1|TabX7
 Context=None|
@@ -262,7 +262,7 @@ Groups=Start:1,Order-Set:3,Order-COVID19:5,Order-Guardian:7,Order-Submit:9,Form-
 4|[Pause]||1|300|Sleep|||||4|
 5|Left Move & Click|121, 290 Left, 2|1|0|Click|||||5|
 6|[Pause]||1|300|Sleep|||||6|
-7|Left Move & Click|203, 424 Left, 2|1|0|Click|||||7|
+7|Left Move & Click|221, 457 Left, 2|1|0|Click|||||7|
 8|[Pause]||1|300|Sleep|||||8|
 9|LAlt Down|{LAlt Down}|1|0|Send|||||9|
 10|[Pause]||1|0|Sleep|||||10|
@@ -375,6 +375,11 @@ Context=None|
 Groups=Start:1
 1|[Text]|코로나19 백신 미접종`, 확진 이력 없음|1|0|SendRaw|||||1|
 
+[PMC Code v5.4.1]|^i||1|Window,2,Fast,0,1,Input,-1,-1,1|1|TemplateInfluenzaSimultaneous
+Context=None|
+Groups=Start:1
+1|[Text]|독감검사 동시시행함|1|0|SendRaw|||||1|
+
 [PMC Code v5.4.1]|^NumpadSub||1|Window,2,Fast,0,1,Input,-1,-1,1|1|ChangePaymentMethod
 Context=None|
 Groups=Start:1
@@ -387,29 +392,4 @@ Groups=Start:1
 7|Space|{Space}|1|0|Send|||||9|
 8|[Pause]||1|300|Sleep|||||10|
 9|F2|{F2}|1|0|Send|||||11|
-
-[PMC Code v5.4.1]|^i||1|Window,2,Fast,0,1,Input,-1,-1,1|1|DeprecatedSubsidizedInfectious
-Context=None|
-Groups=Start:1
-1|Left Move & Click|749, 677 Left, 1|1|10|Click|||||1|
-2|Left Move & Click|859, 703 Left, 1|1|10|Click|||||3|
-3|[Text]|3|1|0|SendRaw|||||5|
-
-[PMC Code v5.4.1]|F10||1|Window,2,Fast,0,1,Input,-1,-1,1|1|DeprecatedInfectiousForm
-Context=None|
-Groups=Start:1,Department:2,Body:6
-1|Left Move & Click|882, 46 Left, 1|1|10|Click|||||1|
-2|Left Move & Click|324, 63 Left, 1|1|10|Click|||||3|
-3|Left Move & Click|249, 175 Left, 1|1|10|Click|||||5|
-4|Left Move & Click|389, 63 Left, 1|1|10|Click|||||7|
-5|[Text]|오원찬`n|1|0|SendRaw|||||9|
-6|Left Move & Click|332, 178 Left, 1|1|10|Click|||||14|
-7|Left Move & Click|212, 420 Left, 1|1|10|Click|||||16|
-8|Left Move & Click|645, 229 Left, 1|1|10|Click|||||18|
-9|Left Move & Click|273, 618 Left, 1|1|10|Click|||||20|
-10|Left Move & Click|190, 725 Left, 1|1|10|Click|||||22|
-11|Left Move & Click|455, 625 Left, 1|1|10|Click|||||24|
-12|Left Move & Click|749, 624 Left, 1|1|10|Click|||||26|
-13|Left Move & Click|969, 676 Left, 1|1|10|Click|||||28|
-14|F2|{F2}|1|0|Send|||||30|
 

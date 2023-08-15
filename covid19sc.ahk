@@ -47,7 +47,7 @@ Return
 
 F6::
 OrderGuardian:
-Click, 202, 420 Left, 2
+Click, 221, 455 Left, 2
 Sleep, 10
 Return
 
@@ -350,7 +350,7 @@ Click, 77, 181 Left, 1
 Sleep, 300
 Click, 121, 290 Left, 2
 Sleep, 300
-Click, 203, 424 Left, 2
+Click, 221, 457 Left, 2
 Sleep, 300
 Send, {LAlt Down}
 Sleep, 0
@@ -483,6 +483,11 @@ TemplateHistoryNone:
 SendRaw, 코로나19 백신 미접종`, 확진 이력 없음
 Return
 
+^i::
+TemplateInfluenzaSimultaneous:
+SendRaw, 독감검사 동시시행함
+Return
+
 ^NumpadSub::
 ChangePaymentMethod:
 Send, {Enter}
@@ -495,49 +500,6 @@ Sleep, 10
 Sleep, 300
 Send, {Space}
 Sleep, 300
-Send, {F2}
-Return
-
-^i::
-DeprecatedSubsidizedInfectious:
-Click, 749, 677 Left, 1
-Sleep, 10
-Click, 859, 703 Left, 1
-Sleep, 10
-SendRaw, 3
-Return
-
-F10::
-DeprecatedInfectiousForm:
-Click, 882, 46 Left, 1
-Sleep, 10
-Click, 324, 63 Left, 1
-Sleep, 10
-Click, 249, 175 Left, 1
-Sleep, 10
-Click, 389, 63 Left, 1
-Sleep, 10
-SendRaw, 
-(LTrim
-오원찬
-
-)
-Click, 332, 178 Left, 1
-Sleep, 10
-Click, 212, 420 Left, 1
-Sleep, 10
-Click, 645, 229 Left, 1
-Sleep, 10
-Click, 273, 618 Left, 1
-Sleep, 10
-Click, 190, 725 Left, 1
-Sleep, 10
-Click, 455, 625 Left, 1
-Sleep, 10
-Click, 749, 624 Left, 1
-Sleep, 10
-Click, 969, 676 Left, 1
-Sleep, 10
 Send, {F2}
 Return
 
