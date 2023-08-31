@@ -26,8 +26,17 @@ Groups=Start:1
 
 [PMC Code v5.4.1]|F6||1|Window,2,Fast,0,1,Input,-1,-1,1|1|OrderGuardian
 Context=None|
-Groups=Start:1
+Groups=Select order:1,Deactivate insurance:3
 1|Left Move & Click|221, 455 Left, 2|1|10|Click|||||1|
+2|[Pause]||1|500|Sleep|||||3|
+3|Left Move & Click|558, 227 Left, 2|1|0|Click|||||4|
+4|[Pause]||1|500|Sleep|||||5|
+5|Left Move & Click|541, 33 Left, 1|1|0|Click|||||6|
+6|[Pause]||1|500|Sleep|||||7|
+7|Left Move & Click|541, 66 Left, 1|1|0|Click|||||8|
+8|[Pause]||1|500|Sleep|||||9|
+9|Left Move & Click|663, 64 Left, 1|1|0|Click|||||10|
+10|[Pause]||1|500|Sleep|||||11|
 
 [PMC Code v5.4.1]|F7||1|Window,2,Fast,0,1,Input,-1,-1,1|1|TabX7
 Context=None|

@@ -49,6 +49,15 @@ F6::
 OrderGuardian:
 Click, 221, 455 Left, 2
 Sleep, 10
+Sleep, 500
+Click, 558, 227 Left, 2
+Sleep, 500
+Click, 541, 33 Left, 1
+Sleep, 500
+Click, 541, 66 Left, 1
+Sleep, 500
+Click, 663, 64 Left, 1
+Sleep, 500
 Return
 
 F7::
