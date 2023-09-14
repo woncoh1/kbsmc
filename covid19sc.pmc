@@ -161,13 +161,13 @@ Groups=Start:1
 2|[Pause]||1|300|Sleep|||||3|
 3|Left Move & Click|337, 547 Left, 1|1|10|Click|||||4|
 4|[Pause]||1|300|Sleep|||||6|
-5|Left Move & Click|926, 56 Left, 1|1|10|Click|||||7|
+5|Left Move & Click|1121, 56 Left, 1|1|10|Click|||||7|
 6|[Pause]||1|300|Sleep|||||9|
 7|Left Move & Click|927, 138 Left, 1|1|10|Click|||||10|
 8|[Pause]||1|300|Sleep|||||12|
 9|End|{End}|1|0|Send|||||13|
 10|[Pause]||1|300|Sleep|||||14|
-11|Move|1602, 753, 0|1|10|Click|||||15|
+11|Move|1807, 753, 0|1|10|Click|||||15|
 
 [PMC Code v5.4.1]|NumpadEnter||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Click
 Context=None|

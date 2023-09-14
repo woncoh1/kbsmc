@@ -245,7 +245,7 @@ Sleep, 300
 Click, 337, 547 Left, 1
 Sleep, 10
 Sleep, 300
-Click, 926, 56 Left, 1
+Click, 1121, 56 Left, 1
 Sleep, 10
 Sleep, 300
 Click, 927, 138 Left, 1
@@ -253,7 +253,7 @@ Sleep, 10
 Sleep, 300
 Send, {End}
 Sleep, 300
-Click, 1602, 753, 0
+Click, 1807, 753, 0
 Sleep, 10
 Return
 
